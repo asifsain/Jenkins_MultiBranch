@@ -6,7 +6,7 @@ node{
         sh 'This is the build stage';
     }
     stage('Deploy'){
-        sh 'This is the deploy stage';
+        sh 'This is the deploy  stage';
     }
 
 
