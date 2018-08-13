@@ -1,0 +1,13 @@
+node{
+    stage('Checkout'){
+        sh 'This is the checkout stage';
+    }
+    stage('Build'){
+        sh 'This is the build stage';
+    }
+    stage('Deploy'){
+        sh 'This is the deploy stage';
+    }
+
+
+}
